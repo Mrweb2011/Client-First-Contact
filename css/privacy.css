@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    justify-content: space-between;
+    background-color: #1C1E53;
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+header ul li a{
+    color: grey;
+}
+header button{
+    background-color: #1C1E53;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+.ul_btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.policy .policy_h1{
+    text-align: center;
+    color: #282938;
+    margin-top: 100px;
+}
+.policy .policy_p{
+    text-align: center;
+    color: #282938;
+    margin-top: 10px;
+}
+.lorem{
+    margin-left: 330px;
+    color: #282938;
+    margin-top: 50px;
+}
+.lorem_p1{
+    margin-top: 40px;
+}
+span{
+    color: #2405F2;
+}
+.lorem_p2{
+    margin-top: 30px;
+}
+.lorem_h1_2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lorem ul{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.talk{
+    background-color: #1C1E53;
+    display: flex;
+    color: white;
+    gap: 200px;
+    padding: 100px;
+    margin-top: 150px;
+    height: 136px;
+}
+.p_{
+    color: #F4F6FC;
+    margin-top: 15px;
+}
+.talk .email{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FCD980;
+    color: black;
+    padding: 30px;
+    gap: 30px;
+}
+.p_2{
+    margin-top: 20px;
+    color: #F4F6FC;
+}
+.i_ i{
+    color: #F4F6FC;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #1C1E53;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}

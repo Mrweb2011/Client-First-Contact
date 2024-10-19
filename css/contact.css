@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    justify-content: space-between;
+    background-color: #1C1E53;
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+}
+header ul li a{
+    color: grey;
+}
+header button{
+    background-color: #1C1E53;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+.ul_btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.contact{
+    padding: 100px;
+}
+.contact h1{
+    text-align: center;
+    color: #282938;
+    font-size: 40px;
+}
+.contact p{
+    text-align: center;
+    color: #282938;
+}
+.card{
+    border: 1px solid #0000001F;
+    background-color: #F4F6FC;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 800px;
+}
+.name_email{
+    display: flex;
+    gap: 20px;
+
+}
+.name input{
+    width: 350px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0000001F;
+    padding: 20px;
+}
+.email input{
+    width: 350px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0000001F;
+    padding: 20px;
+}
+.subject{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.subject1 input{
+    width: 350px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0000001F;
+    padding: 20px;
+}
+.subject2 input{
+    width: 350px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0000001F;
+    padding: 20px;
+}
+.message{
+    margin-top: 20px;
+}
+.message input{
+    width: 760px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #0000001F;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.card button{
+    background-color: #282938;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+}
+.talk{
+    background-color: #1C1E53;
+    display: flex;
+    color: white;
+    gap: 200px;
+    padding: 100px;
+    height: 136px;
+}
+.p_{
+    color: #F4F6FC;
+    margin-top: 15px;
+}
+.talk .email{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FCD980;
+    color: black;
+    padding: 30px;
+    gap: 30px;
+}
+.p_2{
+    margin-top: 20px;
+    color: #F4F6FC;
+}
+.i_ i{
+    color: #F4F6FC;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #1C1E53;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}
